@@ -1,13 +1,19 @@
-# Ignore everything in venv
-venv/*
+# Virtual environment (ignore all)
+venv/
 
-# Allow tcgdexsdk package only
-!venv/lib/
-!venv/lib/python3.12/
-!venv/lib/python3.12/site-packages/
-!venv/lib/python3.12/site-packages/tcgdexsdk/
-!venv/lib/python3.12/site-packages/tcgdexsdk/**
-
-# Still ignore cache files
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
