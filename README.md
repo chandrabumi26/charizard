@@ -21,7 +21,7 @@ Just as Charizard evolves from Charmander → Charmeleon → Charizard, this ETL
 
 ---
 
-## 🎯 Project Purpose
+## 🎯 Service Purpose
 This repository is built to:
 - Extract Pokémon TCG data using **TCGdex SDK / API**
 - Transform raw card and set data into structured Python models
@@ -33,15 +33,6 @@ This project is ideal for:
 - Pokémon TCG analytics
 - ETL pipeline prototyping
 - Learning async Python data workflows
-
----
-
-## 🧪 Tech Stack
-- **Python 3.12**
-- **Asyncio** for asynchronous data extraction
-- **TCGdex SDK** as the primary data source
-- **Dataclasses** for clean data modeling
-- **Git + SSH** for version control
 
 ---
 
@@ -113,6 +104,8 @@ python test.py
 ## 📜 Disclaimer
 This project is **not affiliated** with Pokémon, Nintendo, or The Pokémon Company.
 All Pokémon names and trademarks belong to their respective owners.
+
+This project is non-profit, created solely for educational, experimental, and learning purposes related to data engineering
 
 ---
 
