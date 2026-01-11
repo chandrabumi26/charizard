@@ -1,0 +1,2 @@
+tcgdex-sdk
+aiohttp

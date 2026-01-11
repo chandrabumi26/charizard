@@ -7,8 +7,8 @@ import csv
 
 import sys
 import os
-
-sys.path.insert(0, os.path.abspath("app/vendor"))
+# Force vendor tcgdexsdk (patched version)
+sys.path.insert(0, os.path.abspath("vendor"))
 
 from tcgdexsdk import TCGdex, Language, Query
 

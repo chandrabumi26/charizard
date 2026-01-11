@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  charizard:
+    image: charizard
+    container_name: charizard_etl
+    volumes:
+      - ./data:/app/data
+    tty: true
