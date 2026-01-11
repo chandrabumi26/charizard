@@ -51,19 +51,6 @@ Each step is designed to be:
 
 ---
 
-## 📁 Project Structure
-
-```text
-charizard/
-├── test.py              # ETL and data extraction experiments
-├── README.md            # Project documentation
-├── venv/                # Local virtual environment (not tracked)
-```
-
-> ⚠️ Note: Only modified SDK components (if any) are tracked intentionally for experimentation.
-
----
-
 ## 🚀 Getting Started
 
 ### 1️⃣ Create virtual environment
