@@ -1,0 +1,13 @@
+# Ignore everything in venv
+venv/*
+
+# Allow tcgdexsdk package only
+!venv/lib/
+!venv/lib/python3.12/
+!venv/lib/python3.12/site-packages/
+!venv/lib/python3.12/site-packages/tcgdexsdk/
+!venv/lib/python3.12/site-packages/tcgdexsdk/**
+
+# Still ignore cache files
+__pycache__/
+*.pyc
